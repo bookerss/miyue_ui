@@ -1,30 +1,10 @@
-# miyue_ui
+# miyue_ui（蜜月ui）
+> 参考elementUi源码和vux源码优化ui库
 
-> 仿elemui的自定义库
+##说明
+>该ui是本人参考elemUI写的一个用于学习的UI库。
+>
+>原作者链接：[element](https://github.com/ElemeFE/element)
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+##doc
+[中文文档](https://www.pagewang.com/miyue_ui)
