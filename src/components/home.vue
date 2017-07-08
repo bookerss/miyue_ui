@@ -1,7 +1,7 @@
 <template>
   <div class="">
  <header>MiYue-蜜月UI库</header>
- 
+ <Alert></Alert>
   </div>
 </template>
 
