@@ -2,6 +2,7 @@
   <div class="">
  <header>MiYue-蜜月UI库</header>
  <Alert></Alert>
+ <Input></Input>
   </div>
 </template>
 
