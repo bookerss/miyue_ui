@@ -1,6 +1,10 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <header>蜜月UI</header>
+    <div class="content">
+ <router-view></router-view>
+    </div>
+   
   </div>
 </template>
 
@@ -11,12 +15,16 @@ export default {
 </script>
 
 <style>
+@import './assets/style/global.css';
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  
+}
+.content{
+
 }
 </style>

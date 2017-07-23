@@ -3,11 +3,12 @@
 </style>
 
 <template>
-  <div class="test">
-      this is a test
+  <div class="Alert">
+     我是Alert组件;我自带一个t全局函数可以在全局使用
   </div>
 </template>
 <script>
+import Vue from 'vue';
 export default {
     name:"Alert",
     data () {
@@ -15,6 +16,10 @@ export default {
             
         }
     },
+    mounted () {
+    Vue.t()
+    Vue.$log('测试全局LOg')
+    }
 
 }
 </script>

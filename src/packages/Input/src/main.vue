@@ -4,10 +4,11 @@
 
 <template>
   <div class="test">
-      this is a test22222
+     我是INput组件
   </div>
 </template>
 <script>
+import Vue from 'vue'
 export default {
     name:"Input",
     data () {
@@ -15,6 +16,10 @@ export default {
             
         }
     },
+    mounted () {
+      
+    }
+    
 
 }
 </script>

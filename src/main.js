@@ -9,7 +9,12 @@ import miyue from 'miyue'
 // import Alert from './packages/Alert/index';
 import Miyue from './packages/index';
 console.log(Miyue)
-Vue.use(Miyue);
+ Vue.use(Miyue);
+//  
+// import fuck from './packages/index';
+// Vue.use(fuck.Alert);
+
+
 
 // import b from './class/text'
  
