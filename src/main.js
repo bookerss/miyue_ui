@@ -31,6 +31,11 @@ console.log(Miyue)
 
 
 
+// 类的学习
+import Test from './class/classTest'
+let test = new Test('我是name');
+test._test()
+
 
 
 
